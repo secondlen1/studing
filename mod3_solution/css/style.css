@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header + h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-tablet {
+    border: 2px solid blanchedalmond;
+    background-color:gray;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.menu-tablet-content {
+    font-style: italic;
+    color: blanchedalmond;
+}
+
