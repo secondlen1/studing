@@ -41,7 +41,7 @@ var showLoading = function (selector) {
 var insertProperty = function (string, propName, propValue) {
   var propToReplace = "{{" + propName + "}}";
   if (propName === "randomCategoryShortName"){
-    propToReplace = propName;
+    propToReplace = '{' + propName + '}';
   }
   string = string
     .replace(new RegExp(propToReplace, "g"), propValue);
